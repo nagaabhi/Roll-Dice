@@ -1,0 +1,70 @@
+.js-die-img {
+  width: 20%;
+}
+.js-display-roll {
+  width: 8%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 20px;
+}
+.elements-container h1 {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 46px;
+}
+.elements-container button {
+  border: none;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 20%;
+  font-size: 25px;
+  font-weight: 800;
+  cursor: pointer;
+  border-radius: 7px;
+  background-color: lightslategrey;
+  color: bisque;
+  box-shadow: 0px 1px 13px 0px lightslategrey;
+}
+.display-content {
+  display: grid;
+  /* flex-direction: row;
+  align-items: center;
+  justify-content:space-evenly; */
+  grid-template-columns: 65% 1fr;
+  place-content: center;
+  place-items: center;
+  margin-top: 30px;
+  border: 1px lightgray solid;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: lightsteelblue;
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px 1px lightgray;
+}
+.roll-no {
+  color: brown;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.no {
+  font-size: 20px;
+}
+.rotate-image {
+  animation: rotate 4s linear both;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(360deg);
+  }
+}
